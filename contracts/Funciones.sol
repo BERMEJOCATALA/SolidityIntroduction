@@ -17,5 +17,4 @@ contract Funciones {
     function ObtenerResultado() public view returns (uint) {
         return resultado;
     }
-
 }
