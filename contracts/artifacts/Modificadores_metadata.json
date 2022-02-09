@@ -48,7 +48,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Modificadores.sol": "Modificadores"
+			"contracts/Errores.sol": "Modificadores"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -56,18 +56,18 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": true,
+			"enabled": false,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Modificadores.sol": {
-			"keccak256": "0xdbd3c3b30de4d3fdb7bbc405a1d913a5f2476907fd4ac6b64a98017f930c41d6",
+		"contracts/Errores.sol": {
+			"keccak256": "0x3321573f26dfe9d0fe2eab0e624efabf58fdd6af6749fcfe4428ab93c3b13692",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://cc4d6e0201506407a77f46b5bdd4af5ecaddf1664a4658c21c909fe24da8551b",
-				"dweb:/ipfs/QmTJ7L5FXPABk2gvr4AKnQcfZGQ4WRgMQqjKSndoqVNnYx"
+				"bzz-raw://8c989bcd906a00478791a19f02401088f94e0dd613eba7969bc2fd524ab0427a",
+				"dweb:/ipfs/QmQC1UFDHPC5TzJUtBRD8vVTjW3FdXyaAS1YoMUbBjfvXT"
 			]
 		}
 	},
