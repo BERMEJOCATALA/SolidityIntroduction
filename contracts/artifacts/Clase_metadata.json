@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "alumnos",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "documento",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DatosEstructurados.sol": "Clase"
+		},
+		"evmVersion": "homestead",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DatosEstructurados.sol": {
+			"keccak256": "0x5de57a183e84aeef9f9d9f31e6dd677ce2ed4680b076b623fe68b8e33693b083",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d8c4d3c56a8638748eb87435a7ad024cc34cd67274b28c414f930aaa89ed9546",
+				"dweb:/ipfs/QmcTJUup62nyR8aGZ5KoVAD2N9hfEFahef3EoHtLtU7jo8"
+			]
+		}
+	},
+	"version": 1
+}
