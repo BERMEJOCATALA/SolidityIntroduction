@@ -17,6 +17,19 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bool",
+						"name": "condicion",
+						"type": "bool"
+					}
+				],
+				"name": "NotificacionDeCondicion",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -62,7 +75,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/EstructurasDeControl.sol": "EstructuraDeControl"
+			"contracts/Eventos.sol": "EstructuraDeControl"
 		},
 		"evmVersion": "homestead",
 		"libraries": {},
@@ -76,12 +89,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/EstructurasDeControl.sol": {
-			"keccak256": "0x24108693bcad0e6edc0f7f57ae3406d73b8b38d5db8cb6b9d7d9da384ef1e907",
+		"contracts/Eventos.sol": {
+			"keccak256": "0xd3ea68c5baf0c4fa5d4e17f22e27ad72562125fd2cec8d62d66425e3ef63d0a5",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://bdc51a5df00f583215950d862bb98618838cea1fe25125f3e3852c576c19f874",
-				"dweb:/ipfs/QmRG4Lys2NZ6YvXy8eKXSPBVvEVhJH5uH1EHuFCK8uReoK"
+				"bzz-raw://08df92516659f22d8a913664819b5f118288efaee3b1d054d74a738345c4316f",
+				"dweb:/ipfs/QmefbW1YbLBqERaMFQVTEwt5C9cu8Vu2WKSC5xYZVJ7aPD"
 			]
 		}
 	},
